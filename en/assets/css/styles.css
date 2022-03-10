@@ -984,3 +984,93 @@ footer {
  background-repeat: no-repeat;
 }
 */
+
+.footer-company-info {
+  font-size: 12px;
+  color: #545556;
+  opacity: 0.7; }
+
+  .modal-country-select-noscript a {
+    display: block !important;
+    height: 40px; }
+    .footer-bottom {
+      padding: 13px 0 14px;
+      background-color: #f4f4f4;
+      border-top: 1px solid rgba(151,151,151,.24);
+  }
+  .footer-bottom__left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  @media screen and (min-width: 768px){
+    .footer-bottom__left .button-link:not(:last-child) {
+        padding-right: 25px;
+        margin-right: 25px;
+        position: relative;
+    }
+  
+    .footer-bottom__left .button-link:not(:last-child):after {
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1px;
+      content: "";
+      height: 24px;
+      opacity: .24;
+      position: absolute;
+      background-color: #979797;
+    }
+  }
+  .footer-bottom__left .button-link {
+      margin-bottom: 0;
+  }
+  .footer-bottom__left .button-link a:hover{
+    text-decoration: none;
+  }
+  .footer-bottom__left .button-link .btn-link {
+    font-size: .813rem;
+    line-height: 1.625rem;
+    color: #555f67;
+    padding: 0;
+    border: 0;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  .footer-bottom__right {
+    font-size: .813rem;
+    line-height: 1.625rem;
+    color: #555f67;
+    font-weight: 600;
+    text-align: right;
+  }
+  @media screen and (max-width: 767.98px){
+    .footer-bottom {
+      padding: 0;
+    }
+    .footer-bottom__left {
+        flex-wrap: wrap;
+        padding-left: 0;
+        background-color: #f4f4f4;
+    }
+    .footer-bottom__left .button-link {
+        flex: 50%;
+    }
+    .footer-bottom__left .button-link:nth-of-type(2n) {
+        border-left: 1px solid rgba(151,151,151,.09);
+    }
+    .footer-bottom__left .button-link:not(:nth-child(-1n+2)) {
+      border-top: 1px solid rgba(151,151,151,.09);
+    }
+    .footer-bottom__left .button-link .btn-link {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 18px 15px 16px;
+    }
+    .footer-bottom__right {
+      padding: 17px 0;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,17 @@
+<svg id="GB" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="20" viewBox="0 0 28 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="28" height="20" rx="2" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Mask-2" data-name="Mask" width="28" height="20" rx="2" fill="#fff"/>
+  <g id="GB-2" data-name="GB" clip-path="url(#clip-path)">
+    <rect id="Mask_Copy" data-name="Mask Copy" width="28" height="20" fill="#0a17a7"/>
+    <path id="Rectangle_2" data-name="Rectangle 2" d="M20.107,15.773V23.25H13.441V15.773L1.491,23.833,0,21.623,9.448,15.25H2.774V8.583H9.448L0,2.21,1.491,0,13.441,8.06V.583h6.666V8.06L32.056,0l1.491,2.21L24.1,8.583h6.674V15.25H24.1l9.448,6.373-1.491,2.21Z" transform="translate(-2.774 -1.916)" fill="#fff"/>
+    <path id="Line" d="M0,8.332,12.665,0" transform="translate(18.668 -2)" fill="none" stroke="#db1f35" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.667"/>
+    <path id="Line_Copy_2" data-name="Line Copy 2" d="M0-7.653,11.354,0" transform="translate(20.013 21.35)" fill="none" stroke="#db1f35" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.667"/>
+    <path id="Line_Copy" data-name="Line Copy" d="M11.843,7.981,0,0" transform="translate(-3.837 -1.671)" fill="none" stroke="#db1f35" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.667"/>
+    <path id="Line_Copy_3" data-name="Line Copy 3" d="M13.128-8.706,0,0" transform="translate(-3.837 22.31)" fill="none" stroke="#db1f35" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.667"/>
+    <path id="Rectangle_2_Copy_3" data-name="Rectangle 2 Copy 3" d="M0,12H12v8h4V12H28V8H16V0H12V8H0Z" fill="#e6273e"/>
+  </g>
+</svg>

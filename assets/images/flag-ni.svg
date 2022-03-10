@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="20px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>JE</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="20" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-172.000000, -460.000000)">
+            <g id="JE" transform="translate(172.000000, 460.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <rect stroke="#F5F5F5" stroke-width="0.5" x="0.25" y="0.25" width="27.5" height="19.5" rx="2"></rect>
+                <rect id="Rectangle-1278" fill="#E3243B" mask="url(#mask-2)" transform="translate(14.659027, 10.473202) rotate(-55.000000) translate(-14.659027, -10.473202) " x="13.3256942" y="-14.1934652" width="2.66666667" height="49.3333333"></rect>
+                <rect id="Rectangle-1278" fill="#E3243B" mask="url(#mask-2)" transform="translate(14.659027, 10.473202) scale(-1, 1) rotate(-55.000000) translate(-14.659027, -10.473202) " x="13.3256942" y="-14.1934652" width="2.66666667" height="49.3333333"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

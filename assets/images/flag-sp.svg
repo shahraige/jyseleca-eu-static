@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="20px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ES</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="20" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flags" transform="translate(-220.000000, -220.000000)">
+            <g id="ES" transform="translate(220.000000, 220.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <rect id="Rectangle-2" fill="#DD172C" mask="url(#mask-2)" x="0" y="0" width="28" height="5.33333333"></rect>
+                <rect id="Rectangle-2" fill="#DD172C" mask="url(#mask-2)" x="0" y="14.6666667" width="28" height="5.33333333"></rect>
+                <rect id="Rectangle-2" fill="#FFD133" mask="url(#mask-2)" x="0" y="5.33333333" width="28" height="9.33333333"></rect>
+                <polygon id="Rectangle-139-Copy" fill="#FFEDB1" mask="url(#mask-2)" points="7.33333333 9.33333333 8.66666667 9.33333333 8.66666667 10 7.33333333 10"></polygon>
+                <path d="M8.36054223,9.00165627 L8.44439251,11.3192353 C8.41969369,11.5790981 8.29982915,11.8150005 8.12340343,11.9939217 C7.94608483,12.1737485 7.71082751,12.2969932 7.45274305,12.3265124 C7.11673898,12.3258081 6.82210553,12.2174562 6.60386876,12.034672 C6.38541019,11.851702 6.24515646,11.5946793 6.22118675,11.3070428 L6.22118675,11.3070428 L6.07733827,9.58086102 L8.36054223,9.00165627 Z" id="Rectangle-137" stroke="#A41517" stroke-width="0.666666667" mask="url(#mask-2)"></path>
+                <polygon id="Rectangle-139" fill="#A41517" mask="url(#mask-2)" points="6 10 8.66666667 10 8.66666667 10.6666667 8 10.6666667 7.33333333 12 6.66666667 10.6666667 6 10.6666667"></polygon>
+                <rect id="Rectangle-135" fill="#A41517" mask="url(#mask-2)" x="4" y="8" width="1.33333333" height="4.66666667"></rect>
+                <rect id="Rectangle-135-Copy" fill="#A41517" mask="url(#mask-2)" x="9.33333333" y="8" width="1.33333333" height="4.66666667"></rect>
+                <path d="M6,7.33333333 C6,6.9651435 6.30590057,6.66666667 6.6729126,6.66666667 L7.99375407,6.66666667 C8.36539343,6.66666667 8.66666667,6.96257655 8.66666667,7.33333333 L8.66666667,7.6635437 C8.66666667,7.84936338 8.52329508,8 8.33968099,8 L6.32698568,8 C6.14639647,8 6,7.85730998 6,7.6635437 L6,7.33333333 Z" id="Rectangle-138" fill="#A41517" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

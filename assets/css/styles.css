@@ -1295,6 +1295,7 @@ footer {
   font-weight: 600;
   text-align: right;
 }
+
 @media screen and (max-width: 767.98px){
   .footer-bottom {
     padding: 0;
@@ -1324,3 +1325,17 @@ footer {
     text-align: center;
   }
 }
+@media screen and (max-width: 992px){
+  .section-whatIsJyseleca{
+    padding-bottom: 50px;
+  }
+}
+/*copy right text symbol line height issue START*/
+.copyright-text{position: relative;}
+.copyright-text:before {
+    position: absolute;
+    content: '©';
+    top: 0px;
+    left: -16px;
+}
+/*copy right text symbol line height issue END*/

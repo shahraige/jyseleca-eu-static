@@ -1073,5 +1073,8 @@ footer {
     text-align: center;
   }
 }
-
-
+@media screen and (max-width: 992px){
+  .section-whatIsJyseleca{
+    padding-bottom: 50px;
+  }
+}

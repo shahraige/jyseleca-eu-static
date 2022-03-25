@@ -1339,3 +1339,23 @@ footer {
     left: -16px;
 }
 /*copy right text symbol line height issue END*/
+#ot-sdk-btn-floating .ot-floating-button__front{
+  left: -10px;
+}
+@media (max-width: 1399px) {
+  #ot-sdk-btn-floating .ot-floating-button__front{
+    left: -5px;
+  }
+}
+@media (max-width: 1199px) {
+  #ot-sdk-btn-floating .ot-floating-button__front{
+    left: 0px;
+    bottom: 55px;
+  }
+}
+@media (max-width: 767px) {
+  #ot-sdk-btn-floating .ot-floating-button__front{
+    left: 0px;
+    bottom: 0px;
+  }
+}

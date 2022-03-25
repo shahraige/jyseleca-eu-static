@@ -348,3 +348,58 @@ let calculateAndApplyMinHeight = function () {
   });
 
 
+ 
+$(document).ready(function () {
+    'use strict';
+    var externalModal = "#confirmModal";
+    var excluded = $('.external-link-popup > .domains').text();
+    if ($('.external-link-popup > .domains').length > 0) {
+        let el = $('#confirmModal .headline-text .cmp-text');
+        let defaultText = el.html();
+        $('a[href^="http"]').each(function () {
+            if($('#confirmModal').has(this).length) {
+                $(this).on('click', function() {
+                    $(externalModal).modal('toggle');
+                })
+            } else {
+                var href = $(this).attr('href');
+                var domain = $('<a>').attr('href', href).prop('hostname');
+                if (excluded.indexOf(domain) < 0) {
+                    let popupData = $(this).data('ext-link-popup-text');
+                    $(this).on('click', function (e) {
+                        e.preventDefault();
+                        if (popupData){
+                            let customizedText = `<p>${popupData}</p>`;
+                            el.html(customizedText);
+                        } else {
+                            el.html(defaultText);
+                        }
+                        var button = $(externalModal).find('#btnYes').find("a");
+                        button.attr('href', href);
+                        $(externalModal).modal();
+                    });
+                } else {
+                    if ($(this).has("data-dismiss")) {
+                        $(this).attr("data-dismiss", "");
+                    }
+                }
+            }
+        });
+    }
+});
+
+$(document).on('click', '#btnYes a', function(e){
+    $('#confirmModal').modal('hide');
+});
+
+
+//------------------ for header flicking issue ---------
+$(document).ready(function () {
+    $('.modal').on('show.bs.modal', function (e) {
+        $('.header-area__inner').removeClass('nav-down');
+    });
+    $('#confirmModal').modal('hide');
+});
+
+
+

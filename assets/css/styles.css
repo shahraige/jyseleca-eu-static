@@ -1359,3 +1359,158 @@ footer {
     bottom: 0px;
   }
 }
+
+
+/* external link popup start */
+
+.external-link-popup .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .external-link-popup__inner .modal-dialog {
+      margin-top: 10%;
+      min-width: 36.563rem;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .external-link-popup__inner .modal-dialog {
+      margin: 1.875rem;
+  }
+}
+
+.external-link-popup__inner .brandx-modal {
+  z-index: 1;
+  opacity: 1;
+  position: relative;
+  border-radius: 0.625rem;
+  background: radial-gradient(circle, #ffffff 0, #ffffff 23.2%, #c1c1c0 100%);
+  border: 0.063rem solid #c1c1c0;
+  padding: 0 0.5rem 0.5rem;
+  box-shadow: 0 0 0.25rem #d4d4d4;
+}
+
+.external-link-popup__inner .modal-header {
+  border-bottom: 0;
+  padding: 0.813rem 1rem;
+}
+
+.external-link-popup__inner .modal-header .modal-title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.external-link-popup__inner .modal-header .close {
+  right: 0;
+  border: 0;
+  outline: 0;
+  top: -0.188rem;
+  width: 2.125rem;
+  height: 2.125rem;
+  padding: 0.25rem;
+  position: absolute;
+  background-color: transparent;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NUE4QjZBQjJGOUNGMTFFQThFMzBGNjQzMTM3NTRFOTUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NUE4QjZBQjNGOUNGMTFFQThFMzBGNjQzMTM3NTRFOTUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1QThCNkFCMEY5Q0YxMUVBOEUzMEY2NDMxMzc1NEU5NSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1QThCNkFCMUY5Q0YxMUVBOEUzMEY2NDMxMzc1NEU5NSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ppf2YWgAAAQhSURBVHja1JhtbFNlGIbvc3rargTGsINt2ca+HAiypsTiZmCNRWMQh9GFL03mD4YMF2PAj5i4xB/EGP1hDMSPP7iAE1GZ/2AummxY46AQkm7M4MAtpa4ZtavgyNpRu9Zzn6R1ytZzKnXWJ2nSc/Ke57563vd9nvutEI/HkU6csVjMIytWvDZWUGC9bjAUhoEc3jcBU0sikWtFfr+78vLlNx8YGAimk1fQAvJjebnhe7u96aelS7evqa6eqLJatxYXF8NsNsNkMiljwuEwgsEgfD4fht3uzsErV3LvDgS+WO90dtzj8UTuCORafr5wavPmXcHlyzfZGxq21tbWQhAETb+QeV0uF5wnT3aavd7ux7q62gvHx+MpH5jt01dTY96/b9/pnp6e+J0GczAXc86lN+vNUxs2rHq7re2E1+uNZyqYizmZWxMIBx46cOCzycnJeKaDOZl7NpjbpoPU/wbETBhq/H2akl/GzGaB85jJ6Ug1TdSi5m0gh5uamjOxMNNZwNRM6IuJOsEt6nA4MF9BLWpSm9cKCIsV6wTmOahJ7SQIKyaLlVr0e3/Dke+uIqZSjbWOoya1+V1i71jT2jqhVjE94yFsf+8shn+ZxM2pKJ5/uAqzPUKIx9/tg+96GL9Px/DsgxVzl3U5AVsGGXSO+vo3qhobm0tKSlKCLDbpscAo4ZtBP74a8CN/kQG2irv+ApOA8AZDaLAW4fUnVsGo16XMG4pGV48MDUkiuygbmGpTkgV32cvx1o4a5ZW/cvwiPnf9jMTbHxydwI73XQrElrVF+GTvOuTK8GpBbTJIbOXsoppatQzDKWHsP9aP5sMXsDBHwsrCRXjqAxeGxm4qb+LjFm0QDGqTQaKfSLRyrTB7N1YgdCuKts4f0HjwLCSdgHBkWoHokN9E3gK95nzUJoP4T7adXifixUer0eKoVBYkIR66dxmOttjSgpgZIp0VTU264QmE4BwKJK9PXwrgWN+fa0ZrUJsMIu0dnVVaENzK8sLkAuV0HNljg1ES8dKnA/iwZzgtGGqTQaTHpL3TGqO/hvHkwTNwX72BTZYCfLT7PjyzvgyHmqzylAnKbmp3ejTDUJsMupcl6cJIaWmlxWZbrQVii1wnEhBH96zDslyjsoDXluVhyUI9uvr9+PqiH4V5Oco9NWf5rWwlK7u7XxXptml01Uz02I0pbJMrKyHsK/PRvtumQMzcTc9trMI7T1twKxrDCx1unDg3quprqU0GiTfotmWj+0hdXd2cDxUsNmJnbam8FnQ43no/ivJyUtaZL8/7UC8Dpwqaa2onqS6VlRnomtQ8xHQsFo9Ep+OZGkdNaif9CM8dtPy9vb2p97r8k1lDVGuChnHUombyzJN1VjFrzHNWHSey6oD1Xx05s+YQ/v/4W2I+/6j5Q4ABADtyYfgg8BXxAAAAAElFTkSuQmCC");
+}
+
+.external-link-popup__inner .modal-header .close span {
+  display: none;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0);
+}
+
+.external-link-popup__inner .modal-body {
+  color: #55575c;
+  padding: 1.875rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.external-link-popup__inner .modal-body .button-group {
+  display: flex;
+  margin-top: 2.313rem;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767.98px) {
+  .external-link-popup__inner .modal-body .button-group {
+      align-items: center;
+      flex-direction: column;
+  }
+}
+
+@media screen {
+  .external-link-popup__inner .modal-body .button-group .button-link {
+      margin-bottom: 0;
+  }
+
+  .external-link-popup__inner .modal-body .button-group .button-link:not(:last-child) {
+      margin-right: 1.563rem;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .external-link-popup__inner .modal-body .button-group .button-link:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 1.25rem;
+  }
+}
+
+@media screen {
+  .external-link-popup__inner .modal-body .button-group .button-link .btn-brandx {
+      font-size: 1.125rem;
+      min-width: 10.625rem;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      border: 0.125rem solid #c1c1c0;
+  }
+
+  .external-link-open.modal-open {
+      overflow-y: auto;
+      padding-right: 0 !important;
+  }
+}
+
+
+.external-link-popup__inner .modal-body .button-group .button-link .btn-brandx {
+  font-size: 1.125rem;
+  min-width: 10.625rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border: 0.125rem solid #c1c1c0;
+}
+ .button-link .btn-brandx:not(:focus) {
+  box-shadow: 0px 3px 5px 0 rgb(0 0 0 / 16%);
+}
+.button-link .btn-brandx {
+  display: flex;
+  line-height: 1;
+  max-width: 100%;
+  color: #005dac;
+  min-width: 140px;
+  align-items: center;
+  font-size: 1.125rem;
+  justify-content: center;
+  letter-spacing: 0.05625rem;
+  padding: 1.25rem 1.875rem;
+  background: radial-gradient(circle, #ffffff 0%, #ffffff 23.2%, #c1c1c0 100%);
+  border: 2px solid #c1c1c0;
+  text-decoration: none;
+}
+
+.btn {
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border-radius: 0.75rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* external link popup end */

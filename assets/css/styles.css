@@ -1514,3 +1514,25 @@ footer {
 }
 
 /* external link popup end */
+.cookie-text table{
+  margin-bottom: 30px;
+}
+.cookie-text .table-bordered thead td, .cookie-text .table-bordered thead th {
+  border-bottom-width: 2px;
+}
+
+.cookie-text .table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+.cookie-text .table-bordered td, .cookie-text .table-bordered th {
+  border: 1px solid #dee2e6;
+}
+
+.cookie-text table th, .cookie-text table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+.pagePrivacy .cookie-text h4 {
+  font-size: 18px;
+}

@@ -1168,6 +1168,9 @@ footer {
 .country-select .option-country.option-flag-pt::before {
   background-image: url(../../assets/images/flag-pt.png); }
 
+.country-select .option-country.option-flag-cz::before {
+  background-image: url(../../assets/images/flag-cz.png); }
+
 .country-select .option-country .text {
   display: inline-block;
   padding-left: 25px;

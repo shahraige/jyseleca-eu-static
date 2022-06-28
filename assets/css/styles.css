@@ -942,6 +942,11 @@ body.locale-pl .pr-icon-wrapper-text {
     border-radius: 7px;
     background-color: #A5C9CA;
     left: -15px; }
+    .pagePrivacy ul.dash li::before {
+      content: "-";
+      margin-top: 1px;
+      border-radius: unset;
+      background-color: unset; }
 
 /**
  * PAGE Terms

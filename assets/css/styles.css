@@ -970,15 +970,13 @@ body.locale-pl .pr-icon-wrapper-text {
   letter-spacing: -0.5px; }
 
 .hcp-icon-wrapper {
-  width: auto;
-  width: 200px;
-  height: 200px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   position: relative;
-  width: 472px;
-  height: 130px; }
+  max-width: 472px;
+  height: 130px;
+}
 
 .hcp-link {
   display: flex;
